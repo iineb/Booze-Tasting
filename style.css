@@ -1,0 +1,102 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    color: #777;
+}
+
+#main {
+    padding: 25px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.box {
+    padding: 45px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 5px 20px 25px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 45px;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+.input-form input, .input-form select {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+button {
+    background-color: #FE7F2D;
+    border-radius: 500px;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    color: #FFF;
+    box-shadow: none;
+    border: 0 none;
+    transition: 0.2s all ease-in-out;
+}
+
+button:hover,
+button:focus {
+    background-color: #FF6D0C;
+    transition: 0.2s all ease-in-out;
+}
+
+.list__item {
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
+
+.list__item * {
+    margin-top: 0;
+}
+
+.list__item__name {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.list__item__year,
+.list__item__abv {
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 2px 15px 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list__item__country {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.list__item__rating {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF6D0C;
+    font-size: 32px;
+    margin-bottom: 0;
+}

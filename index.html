@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Alcohol Tasting App</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="main">
+            <div class="input-form box">
+                <h1>Enter your Drink!</h1>
+                <input type="text" name="Name" class="input-form__name" placeholder="Enter the name of the beverage...">
+                <input type="number" name="Year" class="input-form__year" placeholder="Also the year is was made...">
+                <input type="number" name="ABV" class="input-form__abv" placeholder="What's the ABV rating?">
+                <input type="text" name="Country of Origin" class="input-form__country" placeholder="What is it's country of origin?">
+                <select name="Rating" class="input-form__rating">
+                    <option value="" selected>Please Select...</option>
+                    <option value="1 star">1 Star</option>
+                    <option value="2 stars">2 Stars</option>
+                    <option value="3 stars">3 Stars</option>
+                    <option value="4 stars">4 Stars</option>
+                    <option value="5 stars">5 Stars</option>
+                </select>
+                <button type="button" name="add" class="input-form__add">Add to the list</button>
+            </div>
+            <div class="box list">
+                <h2>The Shortlist.</h2>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
